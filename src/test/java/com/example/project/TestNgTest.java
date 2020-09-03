@@ -24,7 +24,7 @@ public class TestNgTest {
 	@Test(priority=4)
 	public void valueMatch() {
 		String expVal = "A";
-		String actVal = "B";
+		String actVal = "A";
 		Assert.assertEquals(actVal, expVal);
 	}
 	
